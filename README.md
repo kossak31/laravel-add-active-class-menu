@@ -1,3 +1,4 @@
+```php
 @php
 
 $prefix = Request::route()->getPrefix();
@@ -9,3 +10,4 @@ $route = Route::current()->getName();
 
 
 <a href="" class="{{ $route == 'dashboard') ? 'active': '' }}">menu prefix</a>
+```
